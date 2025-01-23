@@ -27,7 +27,7 @@ GPIO.setmode(GPIO.BCM)
 R1_PIN = 26
 R2_PIN = 19
 R3_PIN = 13
-R4_PIN = 6
+#R4_PIN = 6
 
 S1_PIN = 20 
 S2_PIN = 21  
@@ -46,7 +46,7 @@ GPIO.setup(S4_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(R1_PIN, GPIO.OUT, initial=GPIO.HIGH)  
 GPIO.setup(R2_PIN, GPIO.OUT, initial=GPIO.HIGH)
 GPIO.setup(R3_PIN, GPIO.OUT, initial=GPIO.HIGH)  
-GPIO.setup(R4_PIN, GPIO.OUT, initial=GPIO.HIGH)
+#GPIO.setup(R4_PIN, GPIO.OUT, initial=GPIO.HIGH)
 
 #+++++++++++++++++++++++++++++++config1 file++++++++++++++++++++++++++++++++++++++++++
 
