@@ -12,7 +12,7 @@ import subprocess as sp
 import time
 import json
 
-BASE_RAW_URL = "https://raw.githubusercontent.com/nikita091999/python_1/main/"
+BASE_RAW_URL = "https://raw.githubusercontent.com/nikita091999/security/main/"
 DEPOSIT_DIR = "/home/datamann/deposit"
 MAIN_DIR = "/home/datamann/main"
 FILES_TO_UPDATE = ["update.py", "config1.json", "version.json"]
